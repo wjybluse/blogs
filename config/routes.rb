@@ -9,6 +9,8 @@ Rails.application.routes.draw do
 
   get 'blog/remove'
 
+  post 'blog/create'
+
   root "blog#index"
   resources :posts
   # The priority is based upon order of creation: first created -> highest priority.
